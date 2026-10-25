@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvCat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/bg_item"
+    android:clickable="true"
+    android:ellipsize="end"
+    android:focusable="true"
+    android:maxLines="1"
+    android:padding="14dp"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp" />

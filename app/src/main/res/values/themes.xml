@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IPTV" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#0F172A</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#64748B</item>
+        <item name="colorAccent">#FF6A00</item>
+        <item name="colorControlActivated">#FF6A00</item>
+        <item name="colorControlNormal">#94A3B8</item>
+    </style>
+</resources>

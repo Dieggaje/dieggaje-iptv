@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="640dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Añadir lista IPTV"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etServer"
+            style="@style/Field"
+            android:hint="URL del servidor  (http://servidor:8080)"
+            android:inputType="textUri" />
+
+        <EditText
+            android:id="@+id/etUser"
+            style="@style/Field"
+            android:hint="Usuario"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/etPass"
+            style="@style/Field"
+            android:hint="Contraseña"
+            android:inputType="textNoSuggestions" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="— o bien una lista M3U (tiene prioridad si se rellena) —"
+            android:textColor="#94A3B8"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etM3u"
+            style="@style/Field"
+            android:hint="URL de la lista M3U"
+            android:inputType="textUri" />
+
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="#F87171"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/Field"
+            android:layout_marginTop="8dp"
+            android:text="Guardar y entrar"
+            android:textAllCaps="false"
+            android:textColor="#FF6A00"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
